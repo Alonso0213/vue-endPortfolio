@@ -1,8 +1,9 @@
 <template>
  <div>
   <NAvbar/>
-
+  
 <router-view/>
+<Foot/>
 </div>
     
   
@@ -35,10 +36,13 @@ nav a.router-link-exact-active {
 </style>
 <script>
 import NAvbar from "./components/Navbar.vue";
+import Foot from "./components/footer.vue";
+
 export default {
   name: 'Navbar',
   components: {
-    NAvbar
+    NAvbar,
+    Foot
   }
 }
 </script>
