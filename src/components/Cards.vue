@@ -44,7 +44,7 @@
     color: white;
 }
 .body{
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(31, 31, 31);
 }
 
 </style>
