@@ -1,17 +1,18 @@
 <template>
+   <body class="body">
+    
     <div class="container">
         <div class="row">
-            <div class="col" v-for="item in data" :key="item.ID">
-                <div class="card">
-                    <img :src="item.image" class="card-img-top" alt="item.title">
-                    <div class="card-body">
-                        <h1>Title</h1>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="card" style="width: 18rem;"  v-for="testimonials in data" :key="testimonials.ID">
+  <img :src="testimonials.image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ testimonials.name }}</h5>
+    <p class="card-text">{{ testimonials.description }}</p>
+  </div>
+</div>
         </div>
     </div>
+</body>
 </template>
 <script>
     export default {
@@ -22,9 +23,9 @@
         },
         methods: {
             async fetchData(){
-                const res = await fetch("https://codebeans2022.github.io/JSON-Server/data.json");
+                const res = await fetch("https://alonso0213.github.io/new-json/index.json");
                 let parsedData = await res.json()
-                this.data = parsedData.products;
+                this.data = parsedData.testimonials;
             },
         },
         mounted(){
@@ -33,4 +34,17 @@
     }
 </script>
 <style scoped>
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.card-body{
+    background-color: black;
+    color: white;
+}
+.body{
+    background-color: rgb(31, 31, 31);
+}
+
 </style>
