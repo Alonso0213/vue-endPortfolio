@@ -1,33 +1,54 @@
-import axios from 'axios'
-import { createStore } from 'vuex'
-
+import axios from 'axios';
+import { createStore } from 'vuex';
 export default createStore({
   state: {
+    projects: [],
     testimonials: [],
-    education:[],
-    projecect:[],
-    skills:[]
-
+    education: [],
+    skills: []
   },
   getters: {
   },
   mutations: {
-    setTestimoinials(state,testcards){ 
-      state.testcards = testcards
+    setProjects(state, projects) {
+      state.projects = projects;
+    },
+    setTestimonials(state, testimonials) {
+      state.testimonials = testimonials;
+    },
+    setSkills(state, skills) {
+      state.skills = skills;
     }
   },
   actions: {
-    async fetchtestimonials(context) {
-      try{
-        let response =await fetch ("https://alonso0213.github.io/new-json/index.json")
-        let {testcards}= await response.json()
-        context.commit("setTestimonials",testcards)
-      }catch(e) {
-        console.log("nothing");
+    async fetchProjects({ commit }) {
+      try {
+        const response = await axios.get('https://alonso0213.github.io/json-portfolio/index.json');
+        const projects = response.data.projects;
+        commit('setProjects', projects);
+      } catch (error) {
+        console.error('Error fetching projects:', error);
+      }
+    },
+    async fetchTestimonials({ commit }) {
+      try {
+        const response = await axios.get('https://alonso0213.github.io/json-portfolio/index.json');
+        const testimonials = response.data.testimonials;
+        commit('setTestimonials', testimonials);
+      } catch (error) {
+        console.error('Error fetching testimonials:', error);
+      }
+    },
+    async fetchSkills({ commit }) {
+      try {
+        const response = await axios.get('https://alonso0213.github.io/json-portfolio/index.json');
+        const skills = response.data.skills;
+        commit('setSkills', skills);
+      } catch (error) {
+        console.error('Error fetching skills:', error);
       }
     }
-    
   },
   modules: {
   }
-})
+});
