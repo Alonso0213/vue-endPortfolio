@@ -4,7 +4,7 @@
      <div class="container">
          <div class="row">
              <div class="card" style="width: 18rem;"  v-for="projects in data" :key="projects.ID">
-   <img :src="projects.image" class="card-img-top" alt="...">
+   <img :src="projects.image" class="card-img-top" alt="..." loading="lazy">
    <div class="card-body">
      <h5 class="card-title">{{ projects.description }}</h5>
      <a href=""><p class="card-text">{{ projects.link }}</p></a>
@@ -23,7 +23,7 @@
          },
          methods: {
              async fetchData(){
-                 const res = await fetch("https://alonso0213.github.io/project-json/index.json");
+                 const res = await fetch("https://alonso0213.github.io/json-portfolio/index.json");
                  let parsedData = await res.json()
                  this.data = parsedData.projects;
              },
@@ -40,7 +40,7 @@
      gap: 2rem;
  }
  .card{
-     background-color: black;
+     background-color: rgba(20, 20, 20, 0.938);
      color: white;
  }
  .body{
