@@ -14,7 +14,7 @@ export default createStore({
   actions: {
     async fetchtestimonials(context) {
       try{
-        let response =await fetch ("https://alonso0213.github.io/json-portfolio/index.json")
+        let response =await fetch ("https://alonso0213.github.io/new-json/index.json")
         let {testcards}= await response.json()
         context.commit("setTestimonials",testcards)
       }catch(e) {

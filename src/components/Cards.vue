@@ -39,7 +39,7 @@
     justify-content: center;
     gap: 2rem;
 }
-.card-body{
+.card{
     background-color: black;
     color: white;
 }
