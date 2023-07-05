@@ -3,11 +3,11 @@
      
      <div class="container">
          <div class="row">
-             <div class="card" style="width: 18rem;"  v-for="projects in data" :key="projects.ID">
-   <img :src="projects.image" class="card-img-top" alt="..." loading="lazy">
+             <div class="card" style="width: 18rem;" v-for="projects in projects" :key="projects.ID">
+   <img :src="projects.image" class="card-img-top" alt="" loading="lazy">
    <div class="card-body">
      <h5 class="card-title">{{ projects.description }}</h5>
-     <a href=""><p class="card-text">{{ projects.link }}</p></a>
+    <p class="card-text">{{ projects.link }}</p>
    </div>
  </div>
          </div>
@@ -15,23 +15,16 @@
  </body>
  </template>
  <script>
-     export default {
-         data(){
-             return{
-                 data:[]
-             }
-         },
-         methods: {
-             async fetchData(){
-                 const res = await fetch("https://alonso0213.github.io/json-portfolio/index.json");
-                 let parsedData = await res.json()
-                 this.data = parsedData.projects;
-             },
-         },
-         mounted(){
-             this.fetchData()
-         },
-     }
+    export default {
+    computed: {
+      projects() {
+        return this.$store.state.projects;
+      }
+    },
+    mounted() {
+      this.$store.dispatch('fetchProjects');
+    }
+  }
  </script>
  <style scoped>
  .row{
@@ -42,6 +35,7 @@
  .card{
      background-color: rgba(20, 20, 20, 0.938);
      color: white;
+     border: solid white;
  }
  .body{
      background-color: rgb(31, 31, 31);
