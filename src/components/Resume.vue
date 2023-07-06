@@ -2,7 +2,6 @@
     <div>
         <body>
             <h2>About me</h2>
-
             <div class="row">
              <div class="col">
                <img src="https://i.postimg.cc/wMCJBrJn/me.jpg" alt="img">
@@ -21,12 +20,18 @@
 </template>
 
 <script>
+
     export default {
         
     }
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=Orbitron&display=swap');
+h2{
+    color: white;
+    font-family: 'Cinzel', serif;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
