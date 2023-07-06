@@ -1,5 +1,26 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  
+   <div>
+    <about/>
+   </div>
+   
+
+  
+  
 </template>
+
+<script>
+import about from "../components/Resume.vue"
+
+  export default {
+    components:{
+      about
+        }
+  }
+</script>
+
+<style scoped>
+
+
+</style>
+
