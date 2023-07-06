@@ -43,4 +43,11 @@ h2{
     color: white;
     font-family: 'Cinzel', serif;
 }
+@media (width<700px) {
+    form{
+        width: 90%;
+        color: rgb(255, 20, 20);
+        
+    }
+}
 </style>

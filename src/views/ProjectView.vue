@@ -1,6 +1,6 @@
 <template>
     <body class="body">
-        <h2 class="head">Projects</h2>
+        <h2 class="head  animate__animated animate__bounceInDown">Projects</h2>
 <cards/> 
     </body>
        

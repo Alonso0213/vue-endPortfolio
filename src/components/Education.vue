@@ -7,7 +7,7 @@
         <center><div class="card mb-3" style="max-width: 540px;" v-for="education in project" :key="education.ID">
             <div class="row g-0">
               <div class="col-md-4">
-                <img :src="education.image" class="img-fluid rounded-start" alt="">
+                <img :src="education.image" class="img-fluid rounded-start" alt="img" loading="lazy">
               </div>
               <div class="col-md-8">
                 <div class="card-body">

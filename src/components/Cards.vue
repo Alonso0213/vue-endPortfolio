@@ -1,7 +1,7 @@
 <template>
    <body class="body">
     
-    <div class="container">
+    <div class="container animate__animated animate__fadeInDown">
         <div class="row">
             <div class="card" style="width: 18rem;"  v-for="testimonials in project" :key="testimonials.ID">
   <img :src="testimonials.image" class="card-img-top" alt="logo" loading="lazy">
@@ -27,6 +27,9 @@
   }
 </script>
 <style scoped>
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 3s;
+}
 .row{
     display: flex;
     justify-content: center;
@@ -41,5 +44,9 @@
 .body{
     background-color: rgb(31, 31, 31);
 }
-
+@media (width<500px) {
+  .animate__animated.animate__fadeInDown {
+    --animate-duration: 5s;
+  }
+}
 </style>

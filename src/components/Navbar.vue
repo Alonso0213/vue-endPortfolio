@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <router-link to="/"><img src="https://i.postimg.cc/R0tzfVGv/ac-logo-a-c-design-white-ac-letter-ac-letter-logo-design-initial-letter-ac-linked-circle-uppercase-m.jpg" alt="logo" class="logo"></router-link>
+    <router-link to="/"><img src="https://i.postimg.cc/R0tzfVGv/ac-logo-a-c-design-white-ac-letter-ac-letter-logo-design-initial-letter-ac-linked-circle-uppercase-m.jpg" alt="logo" class="logo" loading="lazy"></router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

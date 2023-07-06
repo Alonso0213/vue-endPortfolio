@@ -4,15 +4,15 @@
             <h2>Skills</h2>
             <div class="row">
              <div class="col" v-for="skills in project" :key="skills.ID">
-               <img :src= skills.image alt="img" class="img1">
+               <img :src= skills.image alt="img" class="img1" loading="lazy">
                <div class="col">
                 <p class="p" col-3>{{ skills.description }}</p><br>
             <div class="icon">
-                <img :src= skills.icon1 alt="img" col-3>
-                <img :src= skills.icon2 alt="img" col-3>
-                <img :src= skills.icon3 alt="img" col-3>
-                <img :src= skills.icon4 alt="img" col-3>
-                <img :src= skills.icon5 alt="img" col-3>
+                <img :src= skills.icon1 alt="img" col-3 loading="lazy">
+                <img :src= skills.icon2 alt="img" col-3 loading="lazy">
+                <img :src= skills.icon3 alt="img" col-3 loading="lazy">
+                <img :src= skills.icon4 alt="img" col-3 loading="lazy">
+                <img :src= skills.icon5 alt="img" col-3 loading="lazy">
             </div>
 
                </div>
