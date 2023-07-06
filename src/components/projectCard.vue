@@ -27,6 +27,8 @@
   }
  </script>
  <style scoped>
+ @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=Orbitron&display=swap');
+
  .row{
      display: flex;
      justify-content: center;
@@ -36,6 +38,8 @@
      background-color: rgba(20, 20, 20, 0.938);
      color: white;
      border: solid white;
+     font-family: 'Cinzel', serif;
+
  }
  .body{
      background-color: rgb(31, 31, 31);

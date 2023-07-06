@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <h5 class="card-title">A.Cupido</h5>
-        <p class="card-text">&copy; copyright by me</p>
+        <p class="card-text">&copy; copyright 2023</p>
         <router-link to="/contact" class="btn btn-primary">Get in touch</router-link>
        <div class="container"> 
         <a href="#"><img src="https://i.postimg.cc/PJjw68bK/2021-Facebook-icon-svg.png" alt="icon" class="icons"></a>
