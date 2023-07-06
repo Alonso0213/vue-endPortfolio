@@ -2,7 +2,7 @@
    <div class="main">
     <about/>
     <h1>Resume</h1>
-    <education/>
+   <div class="animate__animated animate__fadeInUp"><education/></div>
     <skills/>
    </div>
 </template>
