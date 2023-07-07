@@ -1,0 +1,14 @@
+[debug] [2023-07-07T13:51:06.723Z] ----------------------------------------------------------------------
+[debug] [2023-07-07T13:51:06.726Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Student\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-07T13:51:06.726Z] CLI Version:   12.4.3
+[debug] [2023-07-07T13:51:06.727Z] Platform:      win32
+[debug] [2023-07-07T13:51:06.727Z] Node Version:  v18.15.0
+[debug] [2023-07-07T13:51:06.740Z] Time:          Fri Jul 07 2023 15:51:06 GMT+0200 (South Africa Standard Time)
+[debug] [2023-07-07T13:51:06.741Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-07T13:51:06.860Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-07T13:51:06.861Z] > authorizing via signed-in user (alonsocupido51@gmail.com)
+[debug] [2023-07-07T13:51:06.861Z] [iam] checking project end-vueportfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-07T13:51:06.865Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/end-vueportfolio:testIamPermissions [none]
+[debug] [2023-07-07T13:51:06.866Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/end-vueportfolio:testIamPermissions x-goog-quota-user=projects/end-vueportfolio
+[debug] [2023-07-07T13:51:06.866Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/end-vueportfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
