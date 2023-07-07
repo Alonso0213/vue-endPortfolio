@@ -14,7 +14,10 @@
                  I am from Mitchell's Plain</p>
                </div>
              </div>
-            </div>                
+            </div>  
+            <p>Download my CV</p>
+            <a class="display-6" href="https://docs.google.com/document/d/1ae3j7hr9PWOBxFQCifgsqXGI2bKFFG3L_UMfxFUbDMs/edit?usp=drive_link" target="_blank" download="/images">
+        <img src="https://i.postimg.cc/yN4n2Lwn/cv-icon.png" alt="icon"  class="img1"></a>        
         </body>
     </div>
 </template>
@@ -53,6 +56,9 @@ h2{
   body{
     background-color: rgb(31, 31, 31);;
     color: white;
+  }
+  .img1{
+    height: 8rem;
   }
   
 </style>

@@ -7,7 +7,8 @@
    <img :src="projects.image" class="card-img-top" alt="" loading="lazy">
    <div class="card-body">
      <h5 class="card-title">{{ projects.description }}</h5>
-    <a :href= projects.link ><p class="card-text"><button class="btn btn-primary">Live</button></p></a>
+    <a :href= projects.link target="_blank"><p class="card-text"><button class="btn btn-primary">Live</button></p></a><br>
+    <a :href= projects.link2 target="_blank"><p class="card-text"><button class="btn btn-primary">GitHub</button></p></a>
    </div>
  </div>
          </div>

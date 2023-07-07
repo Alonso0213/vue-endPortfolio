@@ -1,6 +1,5 @@
 <template>
     <body class="body">
-        <h2 class="head">Testimonials</h2>
 <cards/> 
     </body>
        

@@ -4,9 +4,9 @@
         <p class="card-text">&copy; copyright 2023</p>
         <router-link to="/contact" class="btn btn-primary">Get in touch</router-link>
        <div class="container"> 
-        <a href="https://www.facebook.com/"><img src="https://i.postimg.cc/PJjw68bK/2021-Facebook-icon-svg.png" alt="icon" class="icons"></a>
-        <a href="https://www.linkedin.com/in/alonso-cupido-b91370282/"><img src="https://i.postimg.cc/sgDpdSkN/702300.png" alt="icon" class="icons"></a>
-       <a href="https://www.instagram.com/?hl=en"><img src="https://i.postimg.cc/TPKghxYj/instagram-icon-logo-free-png.webp" alt="icon" class="icons"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="https://i.postimg.cc/PJjw68bK/2021-Facebook-icon-svg.png" alt="icon" class="icons"></a>
+        <a href="https://www.linkedin.com/in/alonso-cupido-b91370282/" target="_blank"><img src="https://i.postimg.cc/sgDpdSkN/702300.png" alt="icon" class="icons"></a>
+       <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="https://i.postimg.cc/TPKghxYj/instagram-icon-logo-free-png.webp" alt="icon" class="icons"></a>
         </div>
     </div>
     

@@ -1,6 +1,6 @@
 <template>
-    <body class="body">
-        <h2 class="head  animate__animated animate__bounceInDown">Projects</h2>
+    <body class="body animate__animated animate__bounceInDown">
+    
 <cards/> 
     </body>
        
@@ -27,4 +27,7 @@ import cards from "../components/projectCard.vue"
     background-color: rgb(31, 31, 31);
     color: white;
 }
+.animate__animated.animate__bounceInDown {
+    --animate-duration: 5s;
+  }
 </style>
