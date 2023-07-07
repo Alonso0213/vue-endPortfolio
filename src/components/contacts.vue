@@ -12,7 +12,7 @@
                   <label for="exampleInputPassword1" class="form-label">Message</label>
                    <textarea name="message" id="" cols="30" rows="10" class="form-control" placeholder="Enter message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" target="blank">Submit</button>
               </form>
             <br><br><br>
         </center>
