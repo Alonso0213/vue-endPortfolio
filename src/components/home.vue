@@ -5,7 +5,7 @@
         <div>
     <h2>Im an aspiring full-stack developer</h2>
      </div>
-        <router-link to="/about"><button class="btn btn-primary">Get in touch</button></router-link>
+        <router-link to="/about"><button class="btn btn-primary">More about me</button></router-link>
        
     </div>
     
