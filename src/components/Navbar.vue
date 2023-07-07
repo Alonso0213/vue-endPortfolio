@@ -45,4 +45,10 @@
     display: flex;
     justify-content: end;
 }
+@media (width<992px) {
+  .collapse{
+    display: flex;
+    justify-content: center;
+}
+}
 </style>
