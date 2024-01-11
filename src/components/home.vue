@@ -19,7 +19,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=Orbitron&display=swap');
 .main{
     padding: 100px;
-    background: url(https://i.postimg.cc/6Q52Hk6n/IMG-20230706-WA0007.jpg)no-repeat;
+    background: url(https://i.ibb.co/KzYnWnH/me-splash.jpg)no-repeat;
     background-size: contain;
     background-position:center ;
     height: 80vh;
