@@ -4,7 +4,7 @@
             <h2 class="animate__animated animate__fadeInDown">About me</h2>
             <div class="row">
              <div class="col">
-               <img src="https://i.postimg.cc/wMCJBrJn/me.jpg" alt="img" class="animate__animated animate__fadeInLeft" loading="lazy">
+               <img src="https://i.ibb.co/y5MVqr8/formal-me.jpg" class="animate__animated animate__fadeInLeft" loading="lazy">
                <div class="col"><p class="p animate__animated animate__fadeInRight" col-3>Alonso Cupido
                  E-mail:alonsocupido51@gmail.com
                  Contact:0614605377 <br>
@@ -17,7 +17,7 @@
             </div>  
             <p>Download my CV</p>
             <a class="display-6" href="https://docs.google.com/document/d/1ae3j7hr9PWOBxFQCifgsqXGI2bKFFG3L_UMfxFUbDMs/edit?usp=drive_link" target="_blank" download="/images">
-        <img src="https://i.postimg.cc/yN4n2Lwn/cv-icon.png" alt="icon"  class="img1"></a>        
+        <img src="https://i.ibb.co/hCD6mZG/cv-icon.png" alt="icon"  class="img1"></a>        
         </body>
     </div>
 </template>
